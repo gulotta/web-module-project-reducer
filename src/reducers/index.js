@@ -19,11 +19,11 @@ const calculateResult = (num1, num2, operation) => {
 
 const reducer = (state, action) => {
     switch(action.type) {
-        case(ADD_ONE):
-            return({
-                ...state,
-                total: state.total + 1
-            });
+    //     case(ADD_ONE):
+    //         return({
+    //             ...state,
+    //             total: state.total + 1
+    //         });
 
         case(APPLY_NUMBER):
             return ({ 
