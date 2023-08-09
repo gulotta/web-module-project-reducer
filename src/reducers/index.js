@@ -1,4 +1,5 @@
 import { ADD_ONE, APPLY_NUMBER, CHANGE_OPERATION, CLEAR_DISPLAY, MEMORY_CLEAR, ADD_MEMORY, DISPLAY_MEMORY } from './../actions';
+import App from './../components/App'
 
 export const initialState = {
     total: 0,
